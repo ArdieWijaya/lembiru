@@ -14,9 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('homepage');
 });
 
 Auth::routes();
 
-Route::get('/', 'HomeController@index')->name('home');
+Route::get('/donasi', 'DonasiController@index')->name('donasi');
+Route::get('/kontak', 'KontakController@index')->name('kontak');
+Route::get('/visi-misi', 'VisiMisiController@index')->name('donasi');

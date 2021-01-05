@@ -24,8 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0191b5f6-f819-4d4a-a61b-a449dfbea4c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/homepage.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +171,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609825263612</updated>
       <workItem from="1609825264912" duration="3963000" />
-      <workItem from="1609833562547" duration="793000" />
+      <workItem from="1609833562547" duration="1622000" />
     </task>
     <servers />
   </component>
@@ -194,9 +194,9 @@
       <screen x="0" y="25" width="1920" height="1098" />
     </state>
     <state x="698" y="333" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1920.1098@0.25.1920.1098" timestamp="1609828512312" />
-    <state x="625" y="270" width="670" height="676" key="search.everywhere.popup" timestamp="1609834031453">
+    <state x="625" y="270" width="670" height="676" key="search.everywhere.popup" timestamp="1609834652920">
       <screen x="0" y="25" width="1920" height="1098" />
     </state>
-    <state x="625" y="270" width="670" height="676" key="search.everywhere.popup/0.25.1920.1098@0.25.1920.1098" timestamp="1609834031453" />
+    <state x="625" y="270" width="670" height="676" key="search.everywhere.popup/0.25.1920.1098@0.25.1920.1098" timestamp="1609834652920" />
   </component>
 </project>
