@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+/* @charset "UTF-8"; */
 
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
@@ -34,7 +35,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Nunito", sans-serif;
+  --font-family-sans-serif: "Poppins", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -66,13 +67,21 @@ section {
 
 body {
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: #f8fafc;
+  background-color: white;
+}
+
+.bg-liquid {
+  background-image: url("Homepage - bg 1.png");
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: right bottom;
+  background-color: white;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -2628,7 +2637,7 @@ textarea.form-control.is-invalid {
           user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
+  padding: 0.5rem 1rem;
   font-size: 0.9rem;
   line-height: 1.6;
   border-radius: 0.25rem;
@@ -2668,8 +2677,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #3490dc;
-  border-color: #3490dc;
+  background-color: #0253B3;
+  border-color: #0253B3;
 }
 
 .btn-primary:hover {
@@ -2914,21 +2923,21 @@ fieldset:disabled a.btn {
 
 .btn-light {
   color: #212529;
+  background-color:white;
+  border-color: white;
+}
+
+.btn-light:hover {
+  color: #0253B3;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
 
-.btn-light:hover {
-  color: #212529;
-  background-color: #e2e6ea;
-  border-color: #dae0e5;
-}
-
 .btn-light:focus,
 .btn-light.focus {
-  color: #212529;
-  background-color: #e2e6ea;
-  border-color: #dae0e5;
+  color: #0253B3;
+  background-color: #f8f9fa;
+  border-color: #DEDFE0;
   box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5);
 }
 
@@ -4501,7 +4510,7 @@ input[type=button].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 1.2rem 1rem;
 }
 
 .navbar .container,
@@ -4583,6 +4592,25 @@ input[type=button].btn-block {
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
+}
+
+.navbar-custom {
+  background-color: #ffffff;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #0253B3;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  background-color: #0253B3;
+  border-color: #0253B3;
+  border-radius: 10em;
+  color: #ffffff;
 }
 
 @media (max-width: 575.98px) {
@@ -6374,7 +6402,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -6499,7 +6527,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
