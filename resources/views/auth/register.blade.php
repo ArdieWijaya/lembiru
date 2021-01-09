@@ -9,7 +9,7 @@
         </div>
 
         <p style="font-size: 24px;">Dengan bergabung dan berdonasi bersama kami, <br>
-            Anda dapat membantu mewujudkan visi kami, yaitu <br> 
+            Anda dapat membantu mewujudkan visi kami, yaitu <br>
             mendigitalisasikan Indonesia.</p>
         <div class="d-flex" style="justify-content: flex-end">
             <img src="{{ asset('asset/regisVector.png') }}" alt="" style="width: 350px; height: 224px;">
@@ -91,9 +91,9 @@
                 @csrf
                 <div class="form-group row">
                     <div class="col">
-                        <input style="background-color: #EFF2F4; border-color: #EFF2F4; width: 25vw; height: 3vw; padding: 25px;" 
-                            placeholder="Nama Anda" id="name" type="text" class="form-control @error('name') is-invalid @enderror" 
-                            name="email" value="{{ old('name') }}" required autocomplete="name" autofocus>
+                        <input style="background-color: #EFF2F4; border-color: #EFF2F4; width: 25vw; height: 3vw; padding: 25px;"
+                            placeholder="Nama Anda" id="name" type="text" class="form-control @error('name') is-invalid @enderror"
+                            name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                         @error('name')
                             <span class="invalid-feedback" role="alert">
@@ -105,10 +105,10 @@
 
                 <div class="form-group row">
                     <div class="col">
-                        <input style="background-color: #EFF2F4; border-color: #EFF2F4; width: 25vw; height: 3vw; padding: 25px;" 
-                            placeholder="Email address" id="email" type="email" class="form-control @error('email') is-invalid @enderror" 
+                        <input style="background-color: #EFF2F4; border-color: #EFF2F4; width: 25vw; height: 3vw; padding: 25px;"
+                            placeholder="Email address" id="email" type="email" class="form-control @error('email') is-invalid @enderror"
                             name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
-                        
+
                         @error('email')
                             <span class="invalid-feedback" role="alert">
                                 <strong>{{ $message }}</strong>
