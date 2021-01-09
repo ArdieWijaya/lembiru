@@ -12,7 +12,7 @@
             baik di seluruh Indonesia, serta untuk menggerakkan proses <br> 
             digitalisasi Indonesia.</p>
         <div class="d-flex" style="justify-content: flex-end">
-            <img src="{{ asset('asset/regisVector.png') }}" alt="" style="width: 300px; height: 212px;">
+            <img src="{{ asset('asset/loginVector.png') }}" alt="" style="width: 300px; height: 212px;">
         </div>
     </div>
 
