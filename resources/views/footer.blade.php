@@ -30,65 +30,65 @@
 </head>
 
 <body>
-  <footer class="d-flex justify-content-evenly" style="background-color: #0253B3;">
+<footer class="d-flex justify-content-evenly" style="background-color: #0253B3;">
     <div class="container d-flex flex-column mt-5">
-      <div class="row">
+        <div class="row">
 
-        <!--Column1-->
-        <div class="col-md-3 col-sm-6">
-          <div>
-            <h4 style="color: white;">Lembiru.id</h4>
-            <ul class="list-unstyled">
-              <li><a href="#">Tentang Lembiru.id</a></li>
-              <li><a href="#">Visi Misi</a></li>
-              <li><a href="#">Penghargaan</a></li>
-              <li><a href="#">Kantor Layanan</a></li>
-            </ul>
-          </div>
+            <!--Column1-->
+            <div class="col-md-3 col-sm-6">
+                <div>
+                    <h4 style="color: white;">Lembiru.id</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="/visi-misi">Tentang Lembiru.id</a></li>
+                        <li><a href="/visi-misi">Visi Misi</a></li>
+                        <li><a href="#">Penghargaan</a></li>
+                        <li><a href="#">Kantor Layanan</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--Column2-->
+            <div class="col-md-3 col-sm-6">
+                <div>
+                    <h4 style="color: white;">Bantuan dan Panduan</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Cara Berdonasi</a></li>
+                        <li><a href="#">Bergabung dengan Kami</a></li>
+                        <li><a href="#">Menjadi Sponsor</a></li>
+                        <li><a href="#">Rekening Kami</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--Column3-->
+            <div class="col-md-3 col-sm-6">
+                <div>
+                    <h4 style="color: white;">Pembayaran</h4>
+                    <img src="/asset/logoVisa.png" style="height: 3rem;" class="mr-3" alt="">
+                    <img src="/asset/logoMC.png" style="height: 3rem;" alt="">
+
+                    <h4 class="mt-3" style="color: white;">Pengiriman</h4>
+                    <img src="/asset/logoSicepat.png" style="height: 6rem;" alt="">
+                </div>
+            </div>
+
+            <!--Column4-->
+            <div class="col-md-3">
+                <h4 style="color: white;">Ikuti Kami</h4>
+                <ul class="list-unstyled">
+                    <li><span class="fa fa-twitter mr-1" style="color: white;"></span><a href="#">@lembiruid</a></li>
+                    <li><span class="fa fa-instagram mr-2" style="color: white;"></span><a href="#">@official_lembiru.id</a></li>
+                    <li><span class="fa fa-facebook mr-3" style="color: white;"></span><a href="#">lembiru.id</a></li>
+                </ul>
+            </div>
         </div>
 
-        <!--Column2-->
-        <div class="col-md-3 col-sm-6">
-          <div>
-            <h4 style="color: white;">Bantuan dan Panduan</h4>
-            <ul class="list-unstyled">
-              <li><a href="#">Cara Berdonasi</a></li>
-              <li><a href="#">Bergabung dengan Kami</a></li>
-              <li><a href="#">Menjadi Sponsor</a></li>
-              <li><a href="#">Rekening Kami</a></li>
-            </ul>
-          </div>
+        <hr class= "mt-3 mb-4" style="height: 1px; width: 70%; border: none; background: white;">
+        <div class="row">
+            <div class="col-md-12 copy">
+                <p class="text-center" style="color: white;">&copy; Copyright 2021 - Lembiru.id</p>
+            </div>
         </div>
-
-        <!--Column3-->
-        <div class="col-md-3 col-sm-6">
-          <div>
-            <h4 style="color: white;">Pembayaran</h4>
-            <img src="/asset/logoVisa.png" style="height: 3rem;" class="mr-3" alt="">
-            <img src="/asset/logoMC.png" style="height: 3rem;" alt="">
-
-            <h4 class="mt-3" style="color: white;">Pengiriman</h4>
-            <img src="/asset/logoSicepat.png" style="height: 6rem;" alt="">
-          </div>
-        </div>
-
-        <!--Column4-->
-        <div class="col-md-3">
-          <h4 style="color: white;">Ikuti Kami</h4>
-          <ul class="list-unstyled">
-              <li><span class="fa fa-twitter mr-1" style="color: white;"></span><a href="#">@lembiruid</a></li>
-              <li><span class="fa fa-instagram mr-2" style="color: white;"></span><a href="#">@official_lembiru.id</a></li>
-              <li><span class="fa fa-facebook mr-3" style="color: white;"></span><a href="#">lembiru.id</a></li>
-          </ul>			
-        </div>
-      </div>
-
-      <hr class= "mt-3 mb-4" style="height: 1px; width: 70%; border: none; background: white;">
-      <div class="row">
-        <div class="col-md-12 copy">
-          <p class="text-center" style="color: white;">&copy; Copyright 2021 - Lembiru.id</p>
-        </div>
-      </div>
     </div>
-  </footer>
+</footer>
 </body>

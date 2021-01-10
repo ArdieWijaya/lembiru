@@ -16,20 +16,20 @@
 
         <div class="col-4">
             <h3 class="mb-4 font-weight-bold">Tulis Pesan Kamu Disini</h3>
-            <form action='/kontak' method="post">
+            <form action='/kontak/submit' method="post">
                 @csrf
                 <div class="form-group row">
                     <div class="col">
-                        <input style="background-color: #EFF2F4; border-color: #EFF2F4; width: 25vw; height: 3vw; padding: 25px;" 
-                            placeholder="Nama" id="email" type="text" class="form-control" name="name" value="{{ old('name') }}" 
+                        <input style="background-color: #EFF2F4; border-color: #EFF2F4; width: 25vw; height: 3vw; padding: 25px;"
+                            placeholder="Nama" id="email" type="text" class="form-control" name="name" value="{{ old('name') }}"
                             required autocomplete="name" autofocus>
                     </div>
                 </div>
 
                 <div class="form-group row">
                     <div class="col">
-                        <input style="background-color: #EFF2F4; border-color: #EFF2F4; width: 25vw; height: 3vw; padding: 25px;" 
-                            placeholder="Email address" id="email" type="email" class="form-control @error('email') is-invalid @enderror" 
+                        <input style="background-color: #EFF2F4; border-color: #EFF2F4; width: 25vw; height: 3vw; padding: 25px;"
+                            placeholder="Email address" id="email" type="email" class="form-control @error('email') is-invalid @enderror"
                             name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
                         @error('email')
                             <span class="invalid-feedback" role="alert">
@@ -37,11 +37,11 @@
                             </span>
                         @enderror
                     </div>
-                </div> 
+                </div>
 
                 <div class="form-group">
                     <textarea style="background-color: #EFF2F4; border-color: #EFF2F4; width: 25vw; height: 3vw; padding: 25px; padding-bottom: 200px;"
-                        placeholder="Pesan" id="pesan" class="form-control @error('pesan') is-invalid @enderror" rows="3"></textarea>
+                        placeholder="Pesan" id="pesan" name="pesan" class="form-control @error('pesan') is-invalid @enderror" rows="3"></textarea>
                     @error('pesan')
                         <strong class="text-danger">{{$message}}</strong>
                     @enderror
