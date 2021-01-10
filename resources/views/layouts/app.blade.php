@@ -31,9 +31,10 @@
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-custom">
-            <div class="container-fluid">
+            <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Lembiru.id') }}
+                    <img src="{{ asset('asset/logoLembiru.png') }}" alt="" style="width: 174px; height: 40px;">
+                    {{-- {{ config('app.name', 'Lembiru.id') }} --}}
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -85,7 +86,7 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main class="py-2">
             @yield('content')
         </main>
 

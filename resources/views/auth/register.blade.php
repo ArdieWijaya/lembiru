@@ -4,7 +4,7 @@
 <div class="container mt-4 d-flex justify-content-between">
     <div>
         <div>
-            <h1 style="font-size: 68px;">Ayo gabung bersama</h1>
+            <h1 style="font-size: 68px;">Gabung bersama</h1>
             <h1 class="mb-5" style="color: #0253B3; line-height: 30px; font-size: 68px;">Lembiru.id</h1>
         </div>
 
