@@ -13,16 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('homepage');
-});
-
 Auth::routes();
 
 Route::get('/donasi/detail', function () {
    return view('detailDonasi');
 });
 
+Route::get('/', 'HomepageController@index')->name('homepage');
+Route::get('/donasi/{id}/detail', 'DetailDonasiController@index')->name('detaildonasi');
 Route::get('/donasi', 'DonasiController@index')->name('donasi')->middleware('user');
 Route::get('/kontak', 'KontakController@index')->name('kontak');
 Route::get('/visi-misi', 'VisiMisiController@index')->name('donasi');

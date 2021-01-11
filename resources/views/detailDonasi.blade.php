@@ -16,8 +16,8 @@
                              src="https://images.unsplash.com/photo-1585842378081-5cabd7b37679?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80"/>
                         <div class="detail-donasi-top-wrapper pl-3">
                             <div class="detail-donasi-title-container">
-                                <h1 class="detail-donasi-title heading">Ponsel Bagi SDN11 Bogor</h1>
-                                <h6>digalang oleh <a><strong>Putri Maharani</strong></a></h6>
+                                <h1 class="detail-donasi-title heading">{{ $campaign->name }}</h1>
+                                <h6>digalang oleh <a><strong>{{ $campaign->creator }}</strong></a></h6>
                             </div>
                             <div class="detail-donasi-progress-container">
                                 <h6 class="detail-donasi-progress-detail"><span

@@ -17,23 +17,26 @@
     <div class="container">
         <h2 class="font-weight-bolder mb-5 text-center" style="color: white;">Donasi Bersama Kami</h2>
 
+        @foreach($campaigns as $campaign)
+
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 d-flex justify-content-between">
             <div class="col d-flex justify-content-center">
                 <div class="card shadow-lg" style="border-radius: 1rem; border: 0; width: 16rem;">
                     <img src="/asset/photo1.png" class="bd-placeholder-img card-img-top" style="border-top-left-radius: 1rem; border-top-right-radius: 1rem; height: 12rem; object-fit: cover;" alt="">
                     <div class="card-body">
-                        <h5 class="card-title">Bantu Siswa SDN01</h5>
+                        <h5 class="card-title">{{ $campaign->name }}</h5>
                         <h6 class="card-subtitle mb-2 text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
                                 <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
                                 <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
-                            </svg> 24 hari lagi</h6>
-                        <p class="card-text mt-3 mb-3">Donasikan ponsel bekasmu untuk membantu para siswa SDN01 Bekasi belajar online!</p>
+                            </svg> hari lagi</h6>
+                        <p class="card-text mt-3 mb-3">{{ $campaign->desc }}</p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <button type="button" href="/donasi/detail" class="btn btn-link p-0 m-0">Selengkapnya ></button>
+                                <a href="/donasi/{{ $campaign->id }}/detail"><button type="button" class="btn btn-link p-0 m-0">Selengkapnya ></button></a>
                             </div>
                     </div>
                 </div>
             </div>
+            @endforeach
 
             <div class="col d-flex justify-content-center">
                 <div class="card shadow-lg" style="border-radius: 1rem; border: 0; width: 16rem;">
