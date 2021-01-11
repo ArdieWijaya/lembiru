@@ -7,13 +7,14 @@
         <div>
             <h1 class="font-weight-bolder">Gadget tidak terpakai?</h1>
             <h1 class="font-weight-bolder mb-5">Donasiin aja!</h1>
-            <button type="button" class="btn btn-primary mr-2" style="border-radius: 10rem;">Ayo Donasi!</button>
+            {{-- <form method="post" action="#daftardonasi"> --}}
+            <button onclick= "location.href='#daftardonasi';" type="button" class="btn btn-primary mr-2" style="border-radius: 10rem;">Ayo Donasi!</button>
             <button type="button" class="btn btn-light" style="border-radius: 10rem;">Pelajari di sini</button>
         </div>
     </div>
 </div>
 
-<div class="d-flex align-items-center" style="height: 100vh; background-color: #0253B3;">
+<div class="d-flex align-items-center" style="height: 100vh; background-color: #0253B3;" id="daftardonasi">
     <div class="container">
         <h2 class="font-weight-bolder mb-5 text-center" style="color: white;">Donasi Bersama Kami</h2>
 
