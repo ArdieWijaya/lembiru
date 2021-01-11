@@ -19,6 +19,8 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/donasi', 'DonasiController@index')->name('donasi');
+Route::get('/donasi', 'DonasiController@index')->name('donasi')->middleware('user');
 Route::get('/kontak', 'KontakController@index')->name('kontak');
 Route::get('/visi-misi', 'VisiMisiController@index')->name('donasi');
+Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
+Route::post('/kontak/submit', 'KontakController@submit');
