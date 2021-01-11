@@ -119,19 +119,19 @@
 
                 <div class="d-flex justify-content-between mt-4">
                     <span class="border" style="border-radius: 10px; padding: 10px 20px;">
-                        <a href="">
+                        <a href="/login">
                             <img src="{{ asset('asset/logoGoogle.png') }}" alt="" style="margin-top: 5px;">
                         </a>
                     </span>
 
                     <span class="border" style="border-radius: 10px; padding: 10px 20px;">
-                        <a href="">
+                        <a href="/login">
                             <img src="{{ asset('asset/logoApple.png') }}" alt="">
                         </a>
                     </span>
 
                     <span class="border" style="border-radius: 10px; padding: 10px 20px;">
-                        <a href="">
+                        <a href="/login">
                             <img src="{{ asset('asset/logoFb.png') }}" alt="">
                         </a>
                     </span>
