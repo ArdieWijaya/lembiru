@@ -1,15 +1,15 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container mt-4 d-flex justify-content-between">
-    <div>
+<div style="min-height: calc(100vh - 58px)" class="container d-flex justify-content-between">
+    <div class="d-flex flex-column justify-content-center">
         <div>
             <h1 style="font-size: 68px;">Donasi Untuk</h1>
             <h1 class="mb-5" style="color: #0253B3; line-height: 30px; font-size: 68px;">Lembiru.id</h1>
         </div>
 
         <p style="font-size: 24px;">Dukung kami untuk terus menghubungkan orang-orang <br>
-            baik di seluruh Indonesia, serta untuk menggerakkan <br> 
+            baik di seluruh Indonesia, serta untuk menggerakkan <br>
             proses digitalisasi Indonesia.</p>
         <div class="d-flex" style="justify-content: flex-end">
             <img src="{{ asset('asset/loginVector.png') }}" alt="" style="width: 300px; height: 212px;">
