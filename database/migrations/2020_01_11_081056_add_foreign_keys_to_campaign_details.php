@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddForeignKeysToGadgetDonations extends Migration
+class AddForeignKeysToCampaignDetails extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,11 @@ class AddForeignKeysToGadgetDonations extends Migration
      */
     public function up()
     {
-        Schema::table('gadget_donations', function (Blueprint $table) {
-            $table->unsignedBigInteger('user_id');
+        Schema::table('campaign_details', function (Blueprint $table) {
             $table->unsignedBigInteger('campaign_id');
 
-            $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade')->onDelete('cascade');
             $table->foreign('campaign_id')->references('id')->on('campaigns')->onUpdate('cascade')->onDelete('cascade');
+
         });
     }
 
@@ -29,8 +28,7 @@ class AddForeignKeysToGadgetDonations extends Migration
      */
     public function down()
     {
-        Schema::table('gadget_donations', function (Blueprint $table) {
-            $table->dropForeign(['user_id']);
+        Schema::table('campaign_details', function (Blueprint $table) {
             $table->dropForeign(['campaign_id']);
         });
     }

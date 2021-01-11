@@ -14,9 +14,9 @@ class AddForeignKeysToMoneyDonations extends Migration
     public function up()
     {
         Schema::table('money_donations', function (Blueprint $table) {
-            $table->unsignedBigInteger('transaction_id');
+            $table->unsignedBigInteger('user_id');
 
-            $table->foreign('transaction_id')->references('id')->on('header_transactions')->onUpdate('cascade')->onDelete('cascade');
+            $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade')->onDelete('cascade');
         });
     }
 
@@ -28,7 +28,7 @@ class AddForeignKeysToMoneyDonations extends Migration
     public function down()
     {
         Schema::table('money_donations', function (Blueprint $table) {
-            $table->dropForeign(['transaction_id']);
+            $table->dropForeign(['user_id']);
         });
     }
 }

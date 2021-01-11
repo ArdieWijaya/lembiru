@@ -15,6 +15,9 @@ class CreateGadgetDonationsTable extends Migration
     {
         Schema::create('gadget_donations', function (Blueprint $table) {
             $table->id();
+            $table->string('brand');
+            $table->string('type');
+            $table->string('condition');
             $table->timestamps();
         });
     }
