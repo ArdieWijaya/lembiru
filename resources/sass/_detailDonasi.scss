@@ -1,6 +1,27 @@
 $image-size : 160px;
+main {
+    position: relative;
+    overflow: hidden;
+}
 .detail-donasi {
+    min-height: 100vh;
     color: $primary;
+    & .circle {
+        width: 200px;
+        height: 200px;
+        background-color: rgba($primary-light, .2);
+        border-radius: 100%;
+    }
+    & .circle-1 {
+        position: absolute;
+        bottom: -110px;
+        left: -110px;
+    }
+    & .circle-2 {
+        position: absolute;
+        right: 25%;
+        top: 40%;
+    }
     &-wrapper{
         display: flex;
         min-height: $image-size;

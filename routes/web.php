@@ -19,6 +19,10 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::get('/donasi/detail', function () {
+   return view('detailDonasi');
+});
+
 Route::get('/donasi', 'DonasiController@index')->name('donasi')->middleware('user');
 Route::get('/kontak', 'KontakController@index')->name('kontak');
 Route::get('/visi-misi', 'VisiMisiController@index')->name('donasi');

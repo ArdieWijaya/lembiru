@@ -12211,8 +12211,33 @@ a.text-dark:focus {
   color: #000000;
 }
 
+main {
+  position: relative;
+  overflow: hidden;
+}
+
 .detail-donasi {
+  min-height: 100vh;
   color: #0253B3;
+}
+
+.detail-donasi .circle {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(24, 164, 224, 0.2);
+  border-radius: 100%;
+}
+
+.detail-donasi .circle-1 {
+  position: absolute;
+  bottom: -110px;
+  left: -110px;
+}
+
+.detail-donasi .circle-2 {
+  position: absolute;
+  right: 25%;
+  top: 40%;
 }
 
 .detail-donasi-wrapper {
