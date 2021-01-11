@@ -2,7 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 // Variables
-@import 'variables';
+@import 'abstract/variables';
+
+// Mixins
+@import "abstract/mixins";
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+@import "typography";
+@import "detailDonasi";
+

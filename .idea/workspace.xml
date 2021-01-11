@@ -23,9 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0191b5f6-f819-4d4a-a61b-a449dfbea4c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/js/detailDonasi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/_detailDonasi.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/abstract/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/abstract/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/detailDonation.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,11 +169,31 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\randi\Documents\Codes\Web\lembiru\resources\sass\abstract" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.phpunit.xml">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.watch" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -172,7 +205,9 @@
       <updated>1609825263612</updated>
       <workItem from="1609825264912" duration="3963000" />
       <workItem from="1609833562547" duration="1622000" />
-      <workItem from="1610173650830" duration="717000" />
+      <workItem from="1610173650830" duration="3281000" />
+      <workItem from="1610252459722" duration="2345000" />
+      <workItem from="1610259948902" duration="6195000" />
     </task>
     <servers />
   </component>
@@ -192,30 +227,34 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="520" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610336801443">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="520" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1610336801443" />
     <state x="698" y="333" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609828512312">
       <screen x="0" y="25" width="1920" height="1098" />
     </state>
     <state x="698" y="333" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1920.1098@0.25.1920.1098" timestamp="1609828512312" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1610174162355">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1610260412156">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610174162355" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1610174162355">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610260412156" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1610260412155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610174162355" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1610174162354">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610260412155" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1610260412154">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610174162354" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1610174162355">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610260412154" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1610260412155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610174162355" />
-    <state x="500" y="184" width="672" height="508" key="search.everywhere.popup" timestamp="1610174285686">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610260412155" />
+    <state x="500" y="184" width="672" height="508" key="search.everywhere.popup" timestamp="1610253388270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="500" y="184" width="672" height="508" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1610174285686" />
+    <state x="500" y="184" width="672" height="508" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1610253388270" />
     <state x="625" y="270" width="670" height="676" key="search.everywhere.popup/0.25.1920.1098@0.25.1920.1098" timestamp="1609834652920" />
   </component>
 </project>
