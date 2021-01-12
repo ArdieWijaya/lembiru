@@ -18,7 +18,14 @@ class UserSeeder extends Seeder
                 'email' => 'admin@lembiru.id',
                 'password' => \Illuminate\Support\Facades\Hash::make('12345678'),
                 'role' => 'admin'
-            ]
+            ],
+            [
+                'id' => 2,
+                'name' => 'Ricco',
+                'email' => 'riccocoolz@gmail.com',
+                'password' => \Illuminate\Support\Facades\Hash::make('12345678'),
+                'role' => 'user'
+            ],
         ]);
     }
 }

@@ -26,3 +26,4 @@ Route::get('/kontak', 'KontakController@index')->name('kontak');
 Route::get('/visi-misi', 'VisiMisiController@index')->name('donasi');
 Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
 Route::post('/kontak/submit', 'KontakController@submit');
+Route::get('/donasi/{id}/detail/donasi', 'DetailDonasiController@donate')->middleware('user');

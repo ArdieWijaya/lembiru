@@ -44,4 +44,8 @@ class Users extends Model
     public function header_transaction(){
         return $this->hasMany(HeaderTransaction::class);
     }
+
+    public function gadget_donation(){
+        return $this->hasMany(GadgetDonation::class);
+    }
 }

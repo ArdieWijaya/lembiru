@@ -19,9 +19,9 @@
                             <h6>digalang oleh <a><strong>{{ $campaign->creator }}</strong></a></h6>
                         </div>
                         <div class="detail-donasi-progress-container">
-                            <h6 class="detail-donasi-progress-detail"><span class="text-accent"><strong>6 Ponsel</strong></span> terkumpul dari {{ $campaign->qty }} ponsel</h6>
+                            <h6 class="detail-donasi-progress-detail"><span class="text-accent"><strong>{{ $total }} Ponsel</strong></span> terkumpul dari {{ $campaign->qty }} ponsel</h6>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: {{ 6/$campaign->qty*100 }}%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar" role="progressbar" style="width: {{ $total/$campaign->qty*100 }}%" aria-valuenow="{{ $total }}" aria-valuemin="0" aria-valuemax="{{ $campaign->qty }}"></div>
                             </div>
                         </div>
                     </div>
@@ -31,13 +31,15 @@
                 <div class="detail-donasi-button-wrapper">
                     <div class="text-right pt-1 mb-3">
                         <i class="bi bi-clock"></i>
-                        42 hari lagi
+                        {{ $datediff }} hari lagi
                     </div>
+                    @if($campaign->qty > $total)
                     <a href="/donasi/{{ $campaign->id }}/detail/donasi">
                         <div class="btn btn-primary w-100">
                             Donasi Sekarang
                         </div>
                     </a>
+                    @endif
                 </div>
             </div>
         </div>
@@ -67,37 +69,14 @@
             <div class="col-md-3">
                 <div class="card w-100">
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item sub-heading">Donasi (6)</li>
+                        <li class="list-group-item sub-heading">Donasi ({{ $total }})</li>
+                        @foreach($donates as $donate)
                         <li class="list-group-item">
-                            <h5>Indira Fany</h5>
+                            <h5>{{ $donate->user->name }}</h5>
                             <h6 class="text-secondary">Mendonasikan <strong>1 ponsel</strong></h6>
-                            <h6 class="text-secondary">27-11-2919</h6>
+                            <h6 class="text-secondary">{{ $donate->created_at }}</h6>
                         </li>
-                        <li class="list-group-item">
-                            <h5>Abang Kenet</h5>
-                            <h6 class="text-secondary">Mendonasikan <strong>1 ponsel</strong></h6>
-                            <h6 class="text-secondary">27-11-2919</h6>
-                        </li>
-                        <li class="list-group-item">
-                            <h5>Abang Jonathan</h5>
-                            <h6 class="text-secondary">Mendonasikan <strong>1 ponsel</strong></h6>
-                            <h6 class="text-secondary">27-11-2919</h6>
-                        </li>
-                        <li class="list-group-item">
-                            <h5>Abang Cheap</h5>
-                            <h6 class="text-secondary">Mendonasikan <strong>1 ponsel</strong></h6>
-                            <h6 class="text-secondary">27-11-2919</h6>
-                        </li>
-                        <li class="list-group-item">
-                            <h5>Abang Original</h5>
-                            <h6 class="text-secondary">Mendonasikan <strong>1 ponsel</strong></h6>
-                            <h6 class="text-secondary">27-11-2919</h6>
-                        </li>
-                        <li class="list-group-item">
-                            <h5>Abang Cheapori</h5>
-                            <h6 class="text-secondary">Mendonasikan <strong>1 ponsel</strong></h6>
-                            <h6 class="text-secondary">27-11-2919</h6>
-                        </li>
+                        @endforeach
                     </ul>
                 </div>
             </div>
