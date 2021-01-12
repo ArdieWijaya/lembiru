@@ -16,7 +16,10 @@ class CreateMoneyDonationsTable extends Migration
         Schema::create('money_donations', function (Blueprint $table) {
             $table->id();
             $table->integer('amount');
-            $table->string('payment_method')->default('CREDIT/DEBIT');
+            $table->string('payment_method');
+            $table->string('cardno');
+            $table->string('exp');
+            $table->integer('cvv');
             $table->timestamps();
         });
     }

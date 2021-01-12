@@ -22,6 +22,7 @@ Route::get('/donasi/detail', function () {
 Route::get('/', 'HomepageController@index')->name('homepage');
 Route::get('/donasi/{id}/detail', 'DetailDonasiController@index')->name('detaildonasi');
 Route::get('/donasi', 'DonasiController@index')->name('donasi')->middleware('user');
+Route::post('/donasi/send', 'DonasiController@donate')->name('donatenow')->middleware('user');
 Route::get('/kontak', 'KontakController@index')->name('kontak');
 Route::get('/visi-misi', 'VisiMisiController@index')->name('donasi');
 Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
