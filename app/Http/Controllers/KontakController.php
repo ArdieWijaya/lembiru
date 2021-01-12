@@ -18,6 +18,6 @@ class KontakController extends Controller
             'message' => $request->pesan
         ]);
 
-        return view('homepage');
+        return redirect(route('homepage'));
     }
 }
