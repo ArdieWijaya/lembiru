@@ -34,13 +34,6 @@ class DetailDonasiController extends Controller
 
         $gadgetdonation->save();
 
-        $campaign = Campaign::find($id);
-        $donates = GadgetDonation::where('campaign_id', '=', $id)->get();
-        $total = GadgetDonation::where('campaign_id', '=', $id)->count();
-        $endDate = Carbon::parse($campaign->endDate);
-        $startDate = Carbon::now();
-        $datediff = $endDate->diffInDays($startDate);
-
-        return view('detailDonasi', ['campaign' => $campaign, 'total' => $total, 'donates' => $donates, 'datediff' => $datediff]);
+        return view('pengecekanPonsel');
     }
 }

@@ -61,7 +61,7 @@
                         </div>
 
                         <p class="mt-5 mb-3">Jika Anda sudah selesai, silakan klik tombol di bawah ini.</p>
-                        <button type="button" class="btn-lg btn-primary mr-2 pl-4 pr-4" style="border-radius: 10rem;">Selesai</button>
+                        <a href="/"><button type="button" class="btn-lg btn-primary mr-2 pl-4 pr-4" style="border-radius: 10rem;">Selesai</button></a>
                     </div>
                 </div>
 
