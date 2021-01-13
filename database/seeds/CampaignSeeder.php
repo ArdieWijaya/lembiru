@@ -29,6 +29,7 @@ class CampaignSeeder extends Seeder
             [
                 'id' => 2,
                 'image' => '/asset/photo2.jpg',
+                'name' => 'Bantu UMKM Desa Cibinong',
                 'startDate' => Carbon::parse('2021-02-01'),
                 'endDate' => Carbon::parse('2021-04-01'),
                 'desc' => 'UMKM Desa Cibinong memerlukan bantuanmu untuk melaksanakan kegiatan operasional',
