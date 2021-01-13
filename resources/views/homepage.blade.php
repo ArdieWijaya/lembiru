@@ -36,11 +36,6 @@
             </div>
             @endforeach
         </div>
-
-            <p class="text-center mt-5">
-                <a href="#" class="btn btn-light btn-lg">Lihat Semua Donasi</a>
-            </p>
-
         </div>
     </div>
 
