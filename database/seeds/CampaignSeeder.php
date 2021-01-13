@@ -22,33 +22,33 @@ class CampaignSeeder extends Seeder
                 'endDate' => Carbon::parse('2021-03-01'),
                 'desc' => 'Donasikan ponsel bekasmu untuk membantu para siswa SDN01 Bekasi belajar online!',
                 'spesifikasi' => 'Sistem Operasi: min. Android Kit Kat (4.4) || RAM: min. 2GB || Memori: min. 8GB',
-                'penerima' => 'Muhammad Hussein Shibab',
+                'penerima' => 'Muhammad Hussein',
                 'qty' => 15,
-                'creator' => 'John Doe'
+                'creator' => 'Bambang Samsudin'
             ],
             [
                 'id' => 2,
-                'image' => '/asset/photo1.png',
-                'name' => 'Bantu Siswa SMPN01',
+                'image' => 'https://mentourpilot.com/wp-content/uploads/2021/01/Sriwijaya-Air-1.jpg',
+                'name' => 'Bantu UMKM Desa Cibinong',
                 'startDate' => Carbon::parse('2021-02-01'),
                 'endDate' => Carbon::parse('2021-04-01'),
-                'desc' => 'Donasikan ponsel bekasmu untuk membantu para siswa SMPN01 Bekasi belajar online!',
+                'desc' => 'UMKM Desa Cibinong memerlukan bantuanmu untuk melaksanakan kegiatan operasinal',
                 'spesifikasi' => 'Sistem Operasi: min. Android Kit Kat (4.4) || RAM: min. 4GB || Memori: min. 16GB',
-                'penerima' => 'Siti Fatonah',
-                'qty' => 35,
-                'creator' => 'John Doe'
+                'penerima' => 'Harris Situlampa',
+                'qty' => 2,
+                'creator' => 'Harliman Suharjito'
             ],
             [
                 'id' => 3,
-                'image' => '/asset/photo1.png',
-                'name' => 'Bantu Siswa SMAN01',
+                'image' => 'https://static.republika.co.id/uploads/images/inpicture_slide/anak-yatim-ilustrasi-_140509132957-417.jpg',
+                'name' => 'Bantu Anak Yatim di NTB',
                 'startDate' => Carbon::parse('2021-03-01'),
                 'endDate' => Carbon::parse('2021-05-01'),
-                'desc' => 'Donasikan ponsel bekasmu untuk membantu para siswa SMAN01 Bekasi belajar online!',
+                'desc' => 'Panti Asuhan Peduli Anak ingin memfasilitasi para anak yatim agar lebih terbuka mengenai perkembangan teknologi secara online',
                 'spesifikasi' => 'Sistem Operasi: min. Android Kit Kat (4.4) || RAM: min. 4GB || Memori: min. 32GB',
                 'penerima' => 'Nurdin Suroji',
-                'qty' => 50,
-                'creator' => 'John Doe'
+                'qty' => 10,
+                'creator' => 'Peduli Anak Foundation '
             ]
         ]);
     }
