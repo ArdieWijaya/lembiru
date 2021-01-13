@@ -26,7 +26,7 @@ class DetailDonasiController extends Controller
         $gadgetdonation = new GadgetDonation([
             'brand' => 'Apple',
             'type' => 'iPhone 12 Pro Max',
-            'condition' => 'New',
+            'condition' => 'Used',
             'created_at' => $date,
             'user_id' => $user,
             'campaign_id' => $id

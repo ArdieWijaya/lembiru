@@ -17,9 +17,9 @@ class DonasiController extends Controller
         $user = Auth::user()->id;
 
         $this->validate($request, [
-           'cardno' => ['required', 'numeric', 'min:16', 'max:16'],
-            'exp' => ['required', 'numeric', 'min:6', 'max:6'],
-            'cvv' => ['required', 'numeric', 'min:3', 'max:3']
+           'cardno' => ['required', 'numeric', 'digits:16'],
+            'exp' => ['required', 'numeric', 'digits:6'],
+            'cvv' => ['required', 'numeric', 'digits:3']
         ]);
 
         $moneydonation = new MoneyDonation([
