@@ -28,11 +28,10 @@ class CampaignSeeder extends Seeder
             ],
             [
                 'id' => 2,
-                'image' => 'https://mentourpilot.com/wp-content/uploads/2021/01/Sriwijaya-Air-1.jpg',
-                'name' => 'Bantu UMKM Desa Cibinong',
+                'image' => '/asset/photo2.jpg',
                 'startDate' => Carbon::parse('2021-02-01'),
                 'endDate' => Carbon::parse('2021-04-01'),
-                'desc' => 'UMKM Desa Cibinong memerlukan bantuanmu untuk melaksanakan kegiatan operasinal',
+                'desc' => 'UMKM Desa Cibinong memerlukan bantuanmu untuk melaksanakan kegiatan operasional',
                 'spesifikasi' => 'Sistem Operasi: min. Android Kit Kat (4.4) || RAM: min. 4GB || Memori: min. 16GB',
                 'penerima' => 'Harris Situlampa',
                 'qty' => 2,
@@ -40,7 +39,7 @@ class CampaignSeeder extends Seeder
             ],
             [
                 'id' => 3,
-                'image' => 'https://static.republika.co.id/uploads/images/inpicture_slide/anak-yatim-ilustrasi-_140509132957-417.jpg',
+                'image' => '/asset/photo3.jpg',
                 'name' => 'Bantu Anak Yatim di NTB',
                 'startDate' => Carbon::parse('2021-03-01'),
                 'endDate' => Carbon::parse('2021-05-01'),
