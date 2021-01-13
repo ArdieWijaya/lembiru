@@ -76,9 +76,9 @@
             <div class="col-md-3">
                 <h4 style="color: white;">Ikuti Kami</h4>
                 <ul class="list-unstyled">
-                    <li><span class="fa fa-twitter mr-1" style="color: white;"></span><a class="text-light mb-1 text-decoration-none" href="#">@lembiruid</a></li>
-                    <li><span class="fa fa-instagram mr-2" style="color: white;"></span><a class="text-light mb-1 text-decoration-none" href="#">@official_lembiru.id</a></li>
-                    <li><span class="fa fa-facebook mr-3" style="color: white;"></span><a class="text-light mb-1 text-decoration-none" href="#">lembiru.id</a></li>
+                    <li><span class="fa fa-twitter mr-1" style="color: white;"></span><a class="text-light mb-1 text-decoration-none" href="https://twitter.com/lembiru.id">@lembiruid</a></li>
+                    <li><span class="fa fa-instagram mr-2" style="color: white;"></span><a class="text-light mb-1 text-decoration-none" href="https://bit.ly/35AOJPm">@official_lembiru.id</a></li>
+                    <li><span class="fa fa-facebook mr-3" style="color: white;"></span><a class="text-light mb-1 text-decoration-none" href="https://facebook.com/lembiru.id">lembiru.id</a></li>
                 </ul>
             </div>
         </div>

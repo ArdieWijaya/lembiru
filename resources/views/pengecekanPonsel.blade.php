@@ -25,7 +25,7 @@
                         <img class="mb-3" src="{{ asset('asset/QR.png') }}" style="height: 12rem; width: 12rem;" alt="">
                         <p class="text-center mb-2">Atau masukkan link</p>
                         <div class="pl-3 pt-2 pb-2" style="background-color: whitesmoke; border-radius: 10px;">
-                            <a href="#" class="link-secondary">lmbi.ru/1a2b3c/ckp</a>
+                            <a href="https://bit.ly/35AOJPm" class="link-secondary">https://bit.ly/35AOJPm</a>
                             <i class="fa fa-copy pl-3 pr-3"></i>
                         </div>
 
